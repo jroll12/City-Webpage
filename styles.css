@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Londrina Outline', serif;
+    font-weight: 400;
+    font-style: italic;
+    background-image: url(imgs/1.png);
+    background-attachment: fixed;
+}
+
+header {
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    min-width: 0;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    margin: 0;
+    min-width: 0;
+    margin-bottom: 20px
+}
+
+.hero h1 {
+    font-family: cursive;
+    font-size: 64pt;
+    margin-bottom: -50px;
+    padding: 0
+}
+
+h2 {
+    font-size: 48pt;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .message h1 {
+
+    margin-bottom: 10px; 
+  }
+  
+  .message img {
+    max-width: 100%; 
+  }
+
+p {
+    font-family: 'EB Garmond', serif;
+    font-size: 24pt;
+    margin-top: 50px;
+}
+
+.message p {
+    max-width: 100%;
+}
+
+#dining {
+    display: flex;
+}
+
+#lodging {
+    display: flex;
+}
+
+#entertainment {
+    display: flex;
+}
+
+#nature {
+    display: flex
+}
+
+img {
+    max-width: 50%;
+}
+
+/* Adding styles for responsive design (optional) */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.2em;
+    }
+}
